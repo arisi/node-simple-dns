@@ -42,7 +42,7 @@ dnsd.createServer( (req, res) ->
       ttl: 3602
     res.end()
   else
-    res.end('178.251.144.67')
+    res.end('54.75.237.67')
 ).listen(53)
 
 console.log 'Server running at 53'
